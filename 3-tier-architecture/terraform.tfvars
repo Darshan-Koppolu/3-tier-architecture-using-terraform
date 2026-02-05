@@ -18,7 +18,7 @@ address_prefixes = ["10.0.0.0/24", "10.1.0.0/24", "10.2.0.0/24"]
 
 pubip = "web-pub-ip"
 
-vms = ["web01", "app01", "db01"]
+vms = ["web", "app", "db"]
 
 nic-card      = ["web01-nic", "app01-nic", "db01-nic"]
 nic-ip-config = ["web01-ip-config", "app01-ip-config", "db01-ip-config"]
